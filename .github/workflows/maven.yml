@@ -43,7 +43,7 @@ jobs:
     #       REMOTE_HOST: ${{ secrets.DEV_SERVER_HOST }}
     #       REMOTE_PORT: ${{ secrets.DEV_SERVER_PORT }}
     #       REMOTE_USER: ${{ secrets.DEV_SERVER_USER }}
-    #       TARGET: "~/genshin-map-cloud/api/"
+    #       TARGET: "~/genshin-cloud-api/api/"
     # - name: Deploy to Server
     #   uses: easingthemes/ssh-deploy@main
     #   env:
@@ -53,7 +53,7 @@ jobs:
     #       REMOTE_HOST: ${{ secrets.DEV_SERVER_HOST }}
     #       REMOTE_PORT: ${{ secrets.DEV_SERVER_PORT }}
     #       REMOTE_USER: ${{ secrets.DEV_SERVER_USER }}
-    #       TARGET: "~/genshin-map-cloud/ability/"
+    #       TARGET: "~/genshin-cloud-api/ability/"
 #    - name: Upload api-core to Artifact
 #      uses: actions/upload-artifact@v3.1.0
 #      with:
